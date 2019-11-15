@@ -13,42 +13,46 @@
 
 <body>
     <header class="header">
-        <div class="container__inner">
+        <div class="container">
             <div class="header__item">
-                <div class="logo">
-                    <a href="#">
-                        <img src="img/logo.png" alt="">
-                    </a>
-                </div>
-                <div class="header__item-text">
-                    Для владельцев кофейных аппаратов<br> и другого вендингового оборудования
-                </div>
-                <div class="header__item-phone">
-                    <a href="#">
-                        <img src="img/phone-little.png" alt="">
-                        <span>8 965 594 57 11</span>
-                    </a>
+                <div class="header__item-inner">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="header__item-text">
+                        Для владельцев кофейных аппаратов<br> и другого вендингового оборудования
+                    </div>
+                    <div class="header__item-phone">
+                        <a href="#">
+                            <img src="img/phone-little.png" alt="">
+                            <span>8 965 594 57 11</span>
+                        </a>
+                    </div>
                 </div>
                 <div class="header__button">
                     <a href="#">Нужна консультация?</a>
                 </div>
             </div>
         </div>
-        <div class="container__inner">
+        <div class="container">
             <div class="header__box">
                 <div class="header__box-wrapper">
-                    <div class="header__box-title">
-                        Наши автоматы<br>
-                        <span class="sell">SELL WALL</span><br>
-                        <span class="item">уже на точках</span>
+                    <div class="header__box-inner">
+                        <div class="header__box-title">
+                            Наши автоматы<br>
+                            <span class="sell">SELL WALL</span><br>
+                            <span class="item">уже на точках</span>
+                        </div>
+                        <div class="header__box-info">
+                            <span class="percent">+30%</span><br>
+                            <span class="profit">прибыли каждый месяц</span>
+                        </div>
                     </div>
-                    <div class="header__box-info">
-                        <span class="percent">+30%</span><br>
-                        <span class="profit">прибыли каждый месяц</span>
-                    </div>
-                    <div class="header__box-button">
+                    <button class="header__box-button">
                         Узнать подробности
-                    </div>
+                    </button>
                 </div>
                 <div class="header__box-slider">
                     <div class="header__box-slider-item">
@@ -71,15 +75,24 @@
         </div>
     </header>
     <section class="about">
-        <div class="container__inner">
+        <div class="container">
             <div class="about__item">
-                <img src="img/image-1.png" alt="">
+                <div class="about__image">
+                    <img src="img/nosorog-1.png" alt="">
+                    <img src="img/nosorog-2.png" alt="">
+                    <img src="img/nosorog-3.png" alt="">
+                    <img src="img/nosorog-4.png" alt="">
+                    <div class="about__item-title">
+                        <h1><span>N</span>osorog</h1>
+                        <h1><span>G</span>roup</h1>
+                    </div>
+                </div>
                 <div class="about__inner">
                     <div class="about__title">
                         О компании
                     </div>
                     <div class="about__text">
-                        ГК «Носорог» - одна из первых компанийи мпортеров<br>
+                        ГК «Носорог» - одна из первых компаний импортеров<br>
                         вендинговых аппаратов в России
                     </div>
                     <div class="about__advantage">
@@ -117,7 +130,7 @@
         </div>
     </section>
     <section class="info">
-        <div class="container__inner">
+        <div class="container">
             <div class="info__item">
                 <div class="info__inner">
                     <div class="info__title">
@@ -163,7 +176,7 @@
         </div>
     </section>
     <section class="dignity">
-        <div class="container__inner">
+        <div class="container">
             <div class="dignity__item">
                 <div class="dignity__image">
                     <img src="img/image-3.png" alt="">
@@ -205,7 +218,7 @@
             </div>
     </section>
     <section class="choice">
-        <div class="container__inner">
+        <div class="container">
             <div class="choice__wrapper">
                 <div class="choice__title">
                     ВОЗМОЖНЫЕ ВАРИАНТЫ<br>
@@ -227,7 +240,6 @@
                         <h3>
                             Мармелад<br>
                             (3 вида)
-
                         </h3>
                     </div>
                     <div class="choice__item-3">
@@ -251,16 +263,17 @@
                             с предсказаниями
                         </h3>
                     </div>
+
                 </div>
             </div>
     </section>
     <section class="photo">
-        <div class="container__inner">
+        <div class="container">
             <div class="photo__title">
                 Фото
             </div>
         </div>
-        <div class="container__inner">
+        <div class="container">
             <div class="slider__photo">
                 <div class="slider__photo-inner">
                     <img src="img/photo.jpg" alt="">
@@ -284,7 +297,7 @@
         </div>
     </section>
     <section class="test">
-        <div class="container__inner">
+        <div class="container">
             <div class="test__title">
                 + ТЕСТОВЫЙ ПЕРИОД <span>3 МЕСЯЦА</span>
             </div>
@@ -300,8 +313,8 @@
             </div>
         </div>
     </section>
-    <section class="news">
-        <div class="container__inner">
+    <!-- <section class="news">
+        <div class="container">
             <div class="news__title">
                 Наши<br>
                 новости
@@ -309,14 +322,10 @@
             <div class="news__slogan">
                 Аппарат рассчитан на использование капсул 34 мм
             </div>
-        </div>
-        <div class="container__inner">
             <div class="news__slider">
                 <div class="news__slider-wrapper">
                     <div class="news__slider-item">
-                        <div class="news__image">
-                            <img src="img/photo-6.jpg" alt="">
-                        </div>
+                        <img src="img/photo-6.jpg" alt="">
                         <div class="news__text">
                             <div class="news__text-slogan">
                                 От маршмеллоу и конфет для
@@ -329,10 +338,14 @@
                                 кофейных аппаратов маршмеллоу и конфет для...От маршмеллоу и конфет для кофейных
                                 аппаратов маршмеллоу и конфет для...От маршмеллоу и конфет для кофейных От
                                 маршмеллоу и
+                                конфет для кофейных аппаратов маршмеллоу и конфет для...
+                                От маршмеллоу и конфет для кофейных аппаратов маршмеллоу и конфет для...От
+                                маршмеллоу и
                                 конфет для кофейных аппаратов маршмеллоу и конфет для...От маршмеллоу и конфет для
                                 кофейных аппаратов маршмеллоу и конфет для...От маршмеллоу и конфет для кофейных
-                                аппаратов маршмеллоу и конфет для...От маршмеллоу и конфет для кофейных аппаратов
-                                маршмеллоу и конфет для...
+                                аппаратов маршмеллоу и конфет для...От маршмеллоу и конфет для кофейных От
+                                маршмеллоу и
+                                конфет для кофейных аппаратов маршмеллоу и конфет для...
                             </p>
                         </div>
                     </div>
@@ -358,15 +371,22 @@
                                 кофейных аппаратов маршмеллоу и конфет для...От маршмеллоу и конфет для кофейных
                                 аппаратов маршмеллоу и конфет для...От маршмеллоу и конфет для кофейных аппаратов
                                 маршмеллоу и конфет для...
+                                От маршмеллоу и конфет для кофейных аппаратов маршмеллоу и конфет для...От
+                                маршмеллоу и
+                                конфет для кофейных аппаратов маршмеллоу и конфет для...От маршмеллоу и конфет для
+                                кофейных аппаратов маршмеллоу и конфет для...От маршмеллоу и конфет для кофейных
+                                аппаратов маршмеллоу и конфет для...От маршмеллоу и конфет для кофейных От
+                                маршмеллоу и
+                                конфет для кофейных аппаратов маршмеллоу и конфет для...
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section class="contacts">
-        <div class="container__inner">
+        <div class="container">
             <div class="contacts__title">
                 Наши<br>
                 контакты
@@ -388,12 +408,13 @@
             frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </section>
     <footer class="footer">
-        <div class="container__inner">
+        <div class="container">
             <div class="footer__title">
                 ГК НОСОРОГ 2019
             </div>
         </div>
     </footer>
+
 
 
 
