@@ -9,12 +9,15 @@ $(function(){
         speed: 2000,
         infinite: true,
         centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1,
         responsive: [
             {
                 breakpoint: 768,
                 settings: {
-                    arrows: false,
+                    // arrows: false,
                     centerMode: false,
+                    fade: true,
                 }
             }
         ] 
@@ -38,12 +41,12 @@ $(function(){
 
             },
             {
-                breakpoint: 768,
+                breakpoint: 769,
                 settings: {
-                    arrows: false,
                     slidesToShow: 1,
                     slidesToShow: 1,
                     autoplay: true,
+                    // fade: true,
                 }
             }
         ]
@@ -51,9 +54,10 @@ $(function(){
 
     $('.news__slider').slick({
         dots: true,
-        // fade: true,
+        fade: true,
         // autoplay: true,
-        speed: 3000,
+        speed: 1000,
+        slidesToShow: 1,
     });
 
     
