@@ -263,7 +263,7 @@ img{
     font-size: 44px;
     text-transform: uppercase;
     color: #000;
-    font-weight: 400;
+    font-weight: 300;
     position: relative;
     &:before{
         content: "";
@@ -425,6 +425,7 @@ img{
     text-transform: uppercase;
     color: #fff;
     position: relative;
+    font-weight: 300;
     &:before{
         content: "";
         width: 65px;
@@ -771,7 +772,7 @@ img{
         height: 6px;
         background-color: #d8d72a;
         position: absolute;
-        bottom: 42px;
+        bottom: 56px;
         z-index: 10;
     }
 }
@@ -828,6 +829,7 @@ img{
     color: #fff;
     font-size: 36px;
     font-weight: 300;
+    text-transform: uppercase;
     span{
         color: #d8d72a;
         font-weight: 700;
@@ -908,7 +910,7 @@ img{
         height: 6px;
         background-color: #d8d72a;
         position: absolute;
-        bottom: 42px;
+        bottom: 52px;
         z-index: 10;
     }
 }
@@ -1043,7 +1045,7 @@ img{
         height: 6px;
         background-color: #d8d72a;
         position: absolute;
-        bottom: 70px;
+        bottom: 78px;
         z-index: 10;
     }
 }
